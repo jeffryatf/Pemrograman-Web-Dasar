@@ -1,0 +1,66 @@
+/* Langkah 1: CSS Reset Minimal */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Langkah 2: Tipografi & Warna Global */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F0;
+    color: #1a1a1a;
+}
+
+/* Langkah 3: Header */
+header {
+    background-color: #b71b14;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+header h1 {
+    color: #FFFFFF;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+/* Langkah 4: Navigasi */
+nav ul {
+    list-style: none;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/* Langkah 5: Judul */
+h2 {
+    color: #b71b14;
+    font-size: 1.8rem;
+}
+
+article h3 {
+    color: #1a1a1a;
+    font-size: 1.4rem;
+}
+
+/* Langkah 6: Tabel */
+thead {
+    background-color: #b71b14;
+    color: #FFFFFF;
+}
+
+/* Langkah 7: Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer strong {
+    color: #b71b14;
+}
