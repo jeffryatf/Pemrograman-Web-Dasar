@@ -1,0 +1,118 @@
+/* Langkah 1: CSS Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Langkah 2: Tipografi & Warna Global */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FFF8F0;
+    color: #1a1a1a;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+/* Langkah 3: Header dan Navigasi */
+header {
+    background-color: #b71b14;
+    color: #FFFFFF;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: #FFFFFF;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.95;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 1.5rem;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 0.75rem;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
+}
+/* Langkah 4: Konten Utama dan Kartu Menu */
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+h2 {
+    color: #b71b14;
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    border-bottom: 3px solid #b71b14;
+    padding-bottom: 0.5rem;
+}
+
+article {
+    background-color: #FFFFFF;
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+article h3 {
+    color: #1a1a1a;
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+}
+/* Langkah 5: Tabel Menu */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+    background-color: #FFFFFF;
+}
+
+thead {
+    background-color: #b71b14;
+    color: #FFFFFF;
+}
+
+th, td {
+    padding: 0.75rem;
+    text-align: left;
+    border: 1px solid #DDD;
+}
+
+/* Langkah 6: Footer */
+footer {
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2rem;
+    margin-top: 2rem;
+}
+
+footer strong {
+    color: #b71b14;
+}
