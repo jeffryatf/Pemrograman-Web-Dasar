@@ -33,19 +33,23 @@ header p {
 
 /* Langkah 4: Navigasi */
 nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
     list-style: none;
     margin-top: 1.5rem;
-}
-
-nav ul li {
-    display: inline-block;
-    margin: 0 0.75rem;
 }
 
 nav ul li a {
     color: #FFFFFF;
     text-decoration: none;
     font-weight: 500;
+    transition: opacity 0.3s ease;
+}
+
+nav ul li a:hover {
+    opacity: 0.8;
 }
 
 /* Langkah 5: Konten Utama */
