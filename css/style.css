@@ -32,13 +32,14 @@ header p {
 }
 
 /* Langkah 4: Navigasi */
+/* Navigasi dengan Flexbox */
 nav ul {
+    list-style: none;
+    margin-top: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1.5rem;
-    list-style: none;
-    margin-top: 1.5rem;
 }
 
 nav ul li a {
@@ -102,15 +103,3 @@ th, td {
     border: 1px solid #DDDDDD;
 }
 
-/* Langkah 8: Footer */
-footer {
-    background-color: #1a1a1a;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 2rem;
-    margin-top: 2rem;
-}
-
-footer strong {
-    color: #b71b14;
-}
