@@ -23,6 +23,21 @@ function renderMenu() {
         kartu.appendChild(nama);
 
         wadah.appendChild(kartu);
+
+        const harga = document.createElement("p");
+        harga.textContent = `Rp ${item.harga.toLocaleString("id-ID")}`;
+        harga.style.color = "#b71b14";
+        harga.style.fontWeight = "600";
+        kartu.appendChild(harga);
+
+        const deskripsi = document.createElement("p");
+        deskripsi.textContent = item.deskripsi;
+        kartu.appendChild(deskripsi);
+
+        const kategori = document.createElement("span");
+        kategori.textContent = item.kategori;
+        kategori.classList.add("tag-kategori");
+        kartu.appendChild(kategori);
 		}
     );
 }
