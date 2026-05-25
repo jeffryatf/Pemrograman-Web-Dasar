@@ -85,6 +85,16 @@ article h3 {
 }
 
 /* Langkah 7: Tabel */
+footer {
+    background-color: #1a1a1a;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+footer strong {
+    color: #b71b14;
+}
+
 table {
     width: 100%;
     border-collapse: collapse;
